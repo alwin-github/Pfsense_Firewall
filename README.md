@@ -78,9 +78,3 @@ pfSense is widely used in cybersecurity labs, SOC environments, home labs, and e
 * Suitable for home labs, small businesses, and enterprise environments
 * Regular updates and security patches
 * Provides enterprise-level features without expensive licensing costs
-
-
-
-
-10. **Traffic Shaping and Bandwidth Control**
-    Controls and prioritizes network traffic to improve performance for important applications and services.
