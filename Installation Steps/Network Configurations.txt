@@ -1,0 +1,22 @@
+Network Configuration in Oracle VM VirtualBox for pfSense
+
+1) Open VirtualBox and select the pfSense virtual machine.
+2) Go to Settings → Network.
+3) Enable Adapter 1.
+4) Attached To: NAT
+5) Purpose: WAN (Internet Connection)
+6) Enable Adapter 2.
+7) Attached To: Host-Only Adapter or Internal Network
+8) Purpose: LAN (Local Network)
+   If using Host-Only Adapter:
+9) Open Tools → Network → Host-Only Networks in VirtualBox
+10) Create a Host-Only Network if not already available
+11) Verify Adapter Names:
+12) Adapter 1 → WAN
+13 Adapter 2 → LAN
+14) Save the settings and start the pfSense virtual machine.
+15) During pfSense setup, assign:
+16) em0/vtnet0 → WAN
+17) em1/vtnet1 → LAN
+18) Configure LAN IP if required (Default: 192.168.1.1).
+19) Connect another VM or host system to the same Host-Only/Internal Network to access the pfSense web interface.

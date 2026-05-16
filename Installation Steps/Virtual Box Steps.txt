@@ -1,0 +1,11 @@
+Installation Steps for pfSense in Oracle VM VirtualBox
+
+1) Download the pfSense ISO file 
+2) Install and open VirtualBox on your system.
+3) Click New and create a new virtual machine.
+4) Name: pfSense
+5) Type: BSD
+6) Version: FreeBSD (64-bit)
+7) Allocate RAM (minimum 1 GB, recommended 2 GB or more).
+8) Create a virtual hard disk (minimum 8 GB).
+9) Open VM Settings → Storage and attach the pfSense ISO file to the optical drive.
